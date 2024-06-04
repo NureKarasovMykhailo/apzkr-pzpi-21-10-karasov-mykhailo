@@ -1,0 +1,9 @@
+.add-worker__container {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+.add-worker__item{
+    font-size: 20px;
+}

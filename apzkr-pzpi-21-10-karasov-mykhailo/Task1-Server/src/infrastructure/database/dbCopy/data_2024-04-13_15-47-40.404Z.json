@@ -1,0 +1,315 @@
+{
+ "roles": [
+  {
+   "id": 7,
+   "roleTitle": "SYSTEM-ADMIN",
+   "description": "System administrator",
+   "createdAt": "2024-04-13T14:11:18.656Z",
+   "updatedAt": "2024-04-13T14:11:18.656Z"
+  },
+  {
+   "id": 8,
+   "roleTitle": "COMPANY-ADMIN",
+   "description": "Administrator of company",
+   "createdAt": "2024-04-13T14:11:49.834Z",
+   "updatedAt": "2024-04-13T14:11:49.834Z"
+  },
+  {
+   "id": 9,
+   "roleTitle": "USER",
+   "description": "General user",
+   "createdAt": "2024-04-13T14:12:07.197Z",
+   "updatedAt": "2024-04-13T14:12:07.197Z"
+  },
+  {
+   "id": 10,
+   "roleTitle": "SUBSCRIBER",
+   "description": "User who has subscribe",
+   "createdAt": "2024-04-13T14:12:23.520Z",
+   "updatedAt": "2024-04-13T14:12:23.520Z"
+  }
+ ],
+ "users": [
+  {
+   "id": 11,
+   "email": "jaine@gmail.com",
+   "firstName": "Джейн",
+   "secondName": "Маргулис",
+   "password": "$2b$05$e4SZSU/aGDR.xokMfHNVZ.BLTy/s05l9UT/2/PntL9QH9qB1PVMgi",
+   "phoneNumber": "+380997105162",
+   "birthday": "2004-05-02",
+   "userImage": "default-user-image.jpg",
+   "companyId": null,
+   "createdAt": "2024-04-13T14:12:56.950Z",
+   "updatedAt": "2024-04-13T14:12:56.950Z"
+  },
+  {
+   "id": 12,
+   "email": "yennefer@gmail.com",
+   "firstName": "Йеннефер",
+   "secondName": "Из Вергенберга",
+   "password": "$2b$05$L0JQ2yke3v8HMkjWLusrR.zhZT2JXbKIZmQtsg1kNipw.CmilpX.2",
+   "phoneNumber": "+380997105162",
+   "birthday": "2004-02-05",
+   "userImage": "49b4e344-57cf-453a-9061-d2d2ca98a558.jpg",
+   "companyId": null,
+   "createdAt": "2024-04-13T14:21:42.228Z",
+   "updatedAt": "2024-04-13T14:26:51.765Z"
+  },
+  {
+   "id": 13,
+   "email": "triss@gmail.com",
+   "firstName": "Трисс",
+   "secondName": "Меригольд",
+   "password": "$2b$05$TXnECQ7K3jEj1.1bwEOP7eg2vDRIZPN8rOBgCX18l6WLlOwt.2foK",
+   "phoneNumber": "+380997105162",
+   "birthday": "2004-02-05",
+   "userImage": "94a9e03e-0e8a-4a99-90f1-5d8ff6a4b804.jpg",
+   "companyId": null,
+   "createdAt": "2024-04-13T14:22:31.875Z",
+   "updatedAt": "2024-04-13T14:22:31.875Z"
+  },
+  {
+   "id": 14,
+   "email": "megan@gmail.com",
+   "firstName": "Меган",
+   "secondName": "Фокс",
+   "password": "$2b$05$UgI4z5qNlk/e2wB6SMyv2e1JFznhLwo/k6oWJecWBBw3sa9t7lrZS",
+   "phoneNumber": "+380997105162",
+   "birthday": "2004-02-05",
+   "userImage": "71e1e4a4-1d41-49d2-a51f-d619b720c920.jpg",
+   "companyId": null,
+   "createdAt": "2024-04-13T14:24:33.791Z",
+   "updatedAt": "2024-04-13T14:24:33.791Z"
+  }
+ ],
+ "user_roles": [
+  {
+   "id": 32,
+   "userId": 11,
+   "roleId": 9
+  },
+  {
+   "id": 33,
+   "userId": 11,
+   "roleId": 7
+  },
+  {
+   "id": 34,
+   "userId": 12,
+   "roleId": 9
+  },
+  {
+   "id": 35,
+   "userId": 13,
+   "roleId": 9
+  },
+  {
+   "id": 36,
+   "userId": 14,
+   "roleId": 9
+  }
+ ],
+ "company": [
+  {
+   "id": 16,
+   "companyName": "Залізнодоржня компанія",
+   "description": "Компанія будівництва залізнодорожніх доріг",
+   "companyImage": "d7484a63-853e-43ea-a376-3204c96f6774.jpg",
+   "userId": null,
+   "createdAt": "2024-04-13T14:26:50.798Z",
+   "updatedAt": "2024-04-13T14:26:50.798Z"
+  }
+ ],
+ "complexity": [
+  {
+   "id": 10,
+   "complexityTitle": "Низька складність",
+   "evaluation": 5,
+   "createdAt": "2024-04-13T14:28:19.903Z",
+   "updatedAt": "2024-04-13T14:28:19.903Z"
+  },
+  {
+   "id": 11,
+   "complexityTitle": "Середня складність",
+   "evaluation": 4,
+   "createdAt": "2024-04-13T14:28:34.449Z",
+   "updatedAt": "2024-04-13T14:28:34.449Z"
+  },
+  {
+   "id": 12,
+   "complexityTitle": "Складність більше середнього",
+   "evaluation": 3,
+   "createdAt": "2024-04-13T14:28:58.685Z",
+   "updatedAt": "2024-04-13T14:28:58.685Z"
+  },
+  {
+   "id": 13,
+   "complexityTitle": "Висока складність",
+   "evaluation": 2,
+   "createdAt": "2024-04-13T14:29:10.908Z",
+   "updatedAt": "2024-04-13T14:29:10.908Z"
+  },
+  {
+   "id": 14,
+   "complexityTitle": "Дуже висока складність",
+   "evaluation": 1,
+   "createdAt": "2024-04-13T14:29:19.194Z",
+   "updatedAt": "2024-04-13T14:29:19.194Z"
+  }
+ ],
+ "education": [
+  {
+   "id": 14,
+   "educationTitle": "Інженер-технолог з железничного транспорту",
+   "description": "Оволодіння навичками планування і організації залізничних перевезень, а також розробки технологічних процесів у сфері залізничного транспорту.",
+   "createdAt": "2024-04-13T14:19:58.098Z",
+   "updatedAt": "2024-04-13T14:19:58.098Z"
+  },
+  {
+   "id": 15,
+   "educationTitle": "Логіст",
+   "description": "Отримання знань з планування і оптимізації логістичних процесів, управління складами, маршрутизації вантажів і управління запасами.",
+   "createdAt": "2024-04-13T14:20:05.609Z",
+   "updatedAt": "2024-04-13T14:20:05.609Z"
+  },
+  {
+   "id": 16,
+   "educationTitle": "Диспетчер залізничних перевезень",
+   "description": "Оволодіння навичками організації та контролю руху поїздів, взаємодії з іншими службами та забезпечення безпеки та ефективності залізничних перевезень.",
+   "createdAt": "2024-04-13T14:20:10.937Z",
+   "updatedAt": "2024-04-13T14:20:10.937Z"
+  },
+  {
+   "id": 17,
+   "educationTitle": "Технік-електрик з тягового обладнання",
+   "description": "Вивчення технічного обслуговування та ремонту електрообладнання на залізничних станціях і вагонах, а також запобігання аварійних ситуацій.",
+   "createdAt": "2024-04-13T14:20:16.017Z",
+   "updatedAt": "2024-04-13T14:20:16.017Z"
+  },
+  {
+   "id": 18,
+   "educationTitle": "Машиніст поїзда",
+   "description": "Оволодіння навичками безпечного управління поїздом відповідно до розкладу та правил руху, а також технічного обслуговування поїзда.",
+   "createdAt": "2024-04-13T14:20:21.171Z",
+   "updatedAt": "2024-04-13T14:20:21.171Z"
+  }
+ ],
+ "activity": [
+    {
+     "id": 21,
+     "activityTitle": "Машиніст",
+     "description": "Машиність потяга",
+     "requiredWorkersCount": 2,
+     "timeShift": 7200,
+     "complexityId": 12,
+     "educationId": 18,
+     "companyId": 16,
+     "createdAt": "2024-04-13T14:30:36.605Z",
+     "updatedAt": "2024-04-13T14:30:36.605Z"
+    },
+    {
+     "id": 22,
+     "activityTitle": "Диспетчер",
+     "description": "Диспетчер ЖД просування",
+     "requiredWorkersCount": 6,
+     "timeShift": 7200,
+     "complexityId": 10,
+     "educationId": 15,
+     "companyId": 16,
+     "createdAt": "2024-04-13T14:31:42.201Z",
+     "updatedAt": "2024-04-13T14:31:42.201Z"
+    },
+    {
+     "id": 23,
+     "activityTitle": "Диспетчер по перевезенням",
+     "description": "Диспетчер перевезенням грузів ЖД дорогами",
+     "requiredWorkersCount": 2,
+     "timeShift": 7200,
+     "complexityId": 10,
+     "educationId": 16,
+     "companyId": 16,
+     "createdAt": "2024-04-13T14:32:46.624Z",
+     "updatedAt": "2024-04-13T14:32:46.624Z"
+    },
+    {
+     "id": 24,
+     "activityTitle": "Диспетчер по перевезенням у місті",
+     "description": "Диспетчер по перевезенням грузів ЖД дорогами",
+     "requiredWorkersCount": 1,
+     "timeShift": 7200,
+     "complexityId": 10,
+     "educationId": 16,
+     "companyId": 16,
+     "createdAt": "2024-04-13T14:37:41.336Z",
+     "updatedAt": "2024-04-13T14:37:41.336Z"
+    },
+    {
+     "id": 25,
+     "activityTitle": "Машиніст дального прямування",
+     "description": "Машиність дальнього прямування",
+     "requiredWorkersCount": 1,
+     "timeShift": 7200,
+     "complexityId": 12,
+     "educationId": 18,
+     "companyId": 16,
+     "createdAt": "2024-04-13T14:38:38.692Z",
+     "updatedAt": "2024-04-13T14:38:38.692Z"
+    }
+   ],
+ "scanner": [
+  {
+   "id": 10,
+   "description": "Робочий сканер",
+   "companyId": 16,
+   "userId": 13,
+   "createdAt": "2024-04-13T14:34:22.297Z",
+   "updatedAt": "2024-04-13T14:34:22.297Z"
+  },
+  {
+   "id": 11,
+   "description": "Повністю робочий сканер",
+   "companyId": 16,
+   "userId": 14,
+   "createdAt": "2024-04-13T14:34:46.038Z",
+   "updatedAt": "2024-04-13T14:34:46.038Z"
+  }
+ ],
+ "scanner_history": [
+  {
+   "id": 16,
+   "temperature": 36.7,
+   "pulse": 90,
+   "activeWorkedTime": 1200,
+   "userId": 13,
+   "scannerId": 10,
+   "createdAt": "2024-04-13T14:36:26.542Z",
+   "updatedAt": "2024-04-13T14:36:26.542Z"
+  },
+  {
+   "id": 17,
+   "temperature": 37.7,
+   "pulse": 120,
+   "activeWorkedTime": 3200,
+   "userId": 14,
+   "scannerId": 11,
+   "createdAt": "2024-04-13T14:36:47.779Z",
+   "updatedAt": "2024-04-13T14:36:47.779Z"
+  }
+ ],
+ "subscription": [],
+ "user_activities": [
+  {
+   "id": 15,
+   "userId": 14,
+   "activityId": 23
+  }
+ ],
+ "user_educations": [
+  {
+   "id": 12,
+   "userId": 14,
+   "educationId": 16
+  }
+ ]
+}

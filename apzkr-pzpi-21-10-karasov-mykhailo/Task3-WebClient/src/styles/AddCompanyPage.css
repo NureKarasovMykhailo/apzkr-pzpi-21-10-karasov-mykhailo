@@ -1,0 +1,16 @@
+.add-company__container {
+    min-height: 80vh;
+    margin: 5%;
+}
+
+.add-company__logo-preview {
+    height: 100%;
+    width: auto;
+    padding: 25px 0;
+}
+
+.add-company__logo-preview-image {
+    max-height: 200px;
+    width: auto;
+    border-radius: 5%;
+}

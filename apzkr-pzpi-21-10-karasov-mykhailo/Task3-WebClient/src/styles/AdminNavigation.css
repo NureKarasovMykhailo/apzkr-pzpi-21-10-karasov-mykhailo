@@ -1,0 +1,13 @@
+.admin-navigation {
+    background-color: #343a40;
+    padding: 15px;
+}
+
+.admin-navigation-link {
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+.admin-navigation-link:hover {
+    background-color: #495057;
+}

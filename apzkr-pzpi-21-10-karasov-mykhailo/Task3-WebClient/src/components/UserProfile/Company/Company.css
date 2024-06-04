@@ -1,0 +1,28 @@
+.company-page__container{
+    min-height: 80vh;
+    height: 100%;
+}
+
+.company-page__no-company-container{
+    font-size: 24px;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+
+}
+
+.company-page__add-company-button{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+.company-page__add-button{
+    width: 50%;
+    height: 75px;
+    font-size: 24px;
+}

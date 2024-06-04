@@ -1,0 +1,39 @@
+.main-page__text-block{
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    align-items: center;
+}
+
+.main-page__text-block-image-container {
+    width: 50%;
+    margin: 10px;
+}
+
+.main-page__text-block-text{
+    width: 50%;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.main-page__text-block-image{
+    width: 100%;
+    height: auto;
+}
+
+.main-page__text-block-text-header{
+    text-align: center;
+    margin: 0 0 24px 0;
+}
+
+.main_page__image-container{
+    width: 100%;
+    padding: 0 10%;
+}
+
+.main_page__image{
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
